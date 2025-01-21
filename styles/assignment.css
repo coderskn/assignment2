@@ -1,0 +1,143 @@
+/* Fonts Family */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* --------------------------------------- */
+
+/* shared style */
+
+.display-flex {
+  display: flex;
+}
+
+.text-color-orange {
+  color: #FEA301;
+}
+
+.text-color-sky-blue {
+  color: #01ACFD;
+}
+
+.text-color-paste {
+  color: #05D4DF;
+}
+
+.text-color-purpel {
+  color: #5D58EF;
+}
+
+.hide {
+  display: none;
+}
+
+/* Header ,Nav and Button Style */
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.marq {
+  background-color: rgb(255, 255, 255);
+}
+
+.marq-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(40, 170, 109);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  max-width: 62px;
+  max-height: 62px;
+}
+
+.brand-name {
+  font-size: 2rem;
+  margin-left: 10px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+
+}
+
+.nav-links {
+  display: flex;
+  padding-left: 186px;
+}
+
+
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.contact-btn {
+  width: 197px;
+  height: 50px;
+  padding: 10px 60px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #FF900E;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+}
+
+.hb-menu{
+  background-color: none;
+  display: none;
+}
+
+
+
+/* --------------------------------------- */
+
+@media screen and (max-width: 576px) {
+
+  .brand-name,
+  .contact-btn,
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    
+  }
+
+.hb-menu{
+display: flex;
+}
+
+
+
+}
+
+/* Banner Section */
