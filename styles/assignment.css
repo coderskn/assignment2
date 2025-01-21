@@ -108,9 +108,45 @@ header {
   border: none;
 }
 
-.hb-menu{
+.hb-menu {
   background-color: none;
   display: none;
+}
+
+/* Banner Section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding-left: 141px;
+  padding-right: 141px;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+}
+
+.banner-description {
+  font-size: 1.25rem;
+  margin-top: 24px;
+}
+
+.banner-img {
+  margin-left: 50px;
+}
+
+.enroll-btn {
+  width: 197px;
+  height: 50px;
+  padding: 10px 47px;
+  margin-top: 24px;
+  border-radius: 12px;
+  background-color: #111111;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #ffffff;
+  border: none;
 }
 
 
@@ -129,15 +165,34 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    
   }
 
-.hb-menu{
-display: flex;
+  .hb-menu {
+    display: flex;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-top: 2px solid #FF900E;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .banner-title{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .banner-description{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .banner-img{
+    margin: 0 auto;
+    width: 336px;
+    height: 413px;
+  }
+
 }
-
-
-
-}
-
-/* Banner Section */
