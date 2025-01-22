@@ -324,8 +324,9 @@ main {
   font-size: 1rem;
   font-weight: 700;
   text-align: left;
-  margin-top: 20px;
-  padding-left: 38px;
+  margin-top: 25px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 #date-btn-blue {
@@ -548,19 +549,19 @@ padding: 0;
   grid-template-columns: repeat(2, 1fr);
   gap: 19.39px;
   padding: 0;
- 
 }
+
+
 .stories-card-img {
   width: 173px;
   height: 105px;
 }
 
 .stories-small-card-title {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   font-weight: 700;
   text-align: left;
-  margin-top: 20px;
-  padding-left: 38px;
+  margin-top: 25px;
 }
 
 #date-btn-olive {
