@@ -109,6 +109,8 @@ header {
 }
 
 .hb-menu {
+  width: 52px;
+  height: 52px;
   background-color: none;
   display: none;
 }
@@ -171,6 +173,7 @@ main {
 
 .bg-img {
   margin: 0 auto;
+
 }
 
 .curriculam-title {
@@ -249,7 +252,133 @@ main {
 
 
 /* --------------------------------------- */
+/* Stories Section */
 
+.stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('/assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.stories-title {
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.stories-card {
+  display: flex;
+  gap: 19px;
+}
+
+.stories-big-card {
+  width: 540px;
+  height: 630px;
+  gap: 19px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.stories-card-img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.stories-big-card-title {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-top: 58px;
+  padding-left: 38px;
+
+}
+
+.stories-big-card-description {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 47px;
+  padding-left: 38px;
+}
+
+.stories-small-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19.39px;
+}
+
+
+.stories-small-card-items {
+  width: 290px;
+  height: 301px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.stories-small-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 38px;
+}
+
+#date-btn-blue {
+  width: 175px;
+  height: 48px;
+  border-radius: 48px;
+  border: none;
+  background: rgb(60, 216, 232);
+  color: white;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -290px;
+}
+
+
+#date-btn-olive {
+  width: 157px;
+  height: 38px;
+  border-radius: 48px;
+  border: none;
+  background: rgb(149, 178, 38);
+  color: white;
+  position: absolute;
+  margin-left: 38px;
+  margin-top: -24px;
+}
+
+#date-btn-purple {
+  width: 157px;
+  height: 38px;
+  border-radius: 48px;
+  border: none;
+  background: rgb(93, 88, 240);
+  color: white;
+  position: absolute;
+  margin-left: 38px;
+  margin-top: -24px;
+}
+
+
+.view-btn {
+  width: 197px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px 61px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  border-radius: 12px;
+  background-color: #111111;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+}
+
+
+/* --------------------------------------- */
 
 /* --------------------------------------- */
 @media screen and (max-width: 576px) {
@@ -277,6 +406,7 @@ main {
     border-top: 2px solid #FF900E;
     padding-left: 16px;
     padding-right: 16px;
+    margin-top: 10px;
   }
 
   .banner-title{
@@ -338,5 +468,70 @@ main {
   border: none;
   background-color: white;
 }
+
+.stories {
+padding: 0;
+}
+
+.stories-big-card{
+  display: none;
+}
+
+.stories-small-card-items {
+  width: 173px;
+  height: 179px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 0;
+}
+
+.stories-small-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19.39px;
+  padding: 0;
+ 
+}
+.stories-card-img {
+  width: 173px;
+  height: 105px;
+}
+
+.stories-small-card-title {
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 38px;
+}
+
+#date-btn-olive {
+  width: 103px;
+  height: 23px;
+  border-radius: 48px;
+  border: none;
+  background: rgb(149, 178, 38);
+  font-size: 0.5rem;
+  color: white;
+  position: absolute;
+  margin-left: -160px;
+  margin-top: 93px;
+}
+
+#date-btn-purple {
+  width: 103px;
+  height: 23px;
+  border-radius: 48px;
+  border: none;
+  background: rgb(93, 88, 240);
+  font-size: 0.5rem;
+  color: white;
+  position: absolute;
+  margin-left: -160px;
+  margin-top: 93px;
+}
+
+
+
 
 }
