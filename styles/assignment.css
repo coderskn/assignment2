@@ -41,7 +41,9 @@ header{
   max-width: 1440px;
   margin: 0 auto;
 }
-
+.marq-sec {
+  padding: 0px 140px;
+}
 .marq {
   background-color: rgb(255, 255, 255);
 }
@@ -443,6 +445,12 @@ footer {
   .hb-menu {
     display: flex;
   }
+
+.marq-sec {
+  padding: 0px;
+}
+
+
   .banner {
     display: flex;
     flex-direction: column-reverse;
