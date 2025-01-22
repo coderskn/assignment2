@@ -165,7 +165,7 @@ main {
 /* Curriculam Section */
 
 .curriculam {
-  background-image: url('../assets/bg.png');
+  background-image: url(../assets/bg.png);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -260,7 +260,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
 
 .stories-title {
