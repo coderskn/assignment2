@@ -250,8 +250,9 @@ main {
   background-color: rgb(179, 48, 128);
 }
 
-
 /* --------------------------------------- */
+
+
 /* Stories Section */
 
 .stories {
@@ -377,8 +378,49 @@ main {
   border: none;
 }
 
-
 /* --------------------------------------- */
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: rgb(1, 172, 253);
+  color: white;
+}
+
+.footer-sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 140px 123px;
+  gap: 150px;
+}
+
+
+.footer-logo {
+  width: 69px;
+  height: 69px;
+}
+
+
+.brand-infos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.ftitle{
+  margin-left: 30px;
+}
+
+
+.fnav-item{
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.fnav-link{
+  text-decoration: none;
+  color: white;
+}
+
 
 /* --------------------------------------- */
 @media screen and (max-width: 576px) {
@@ -426,7 +468,6 @@ main {
   }
 
   .curriculam {
-    /* background-image: url('/assets/bg.png'); */
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -531,7 +572,16 @@ padding: 0;
   margin-top: 93px;
 }
 
+footer{
+  padding: 10px 10px;
+}
 
+.footer-sec {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0px 0px;
+  gap: 0px;
+}
 
 
 }
